@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:c2pa="http://c2pa.org/manifest" version="1.1" viewBox="0 0 48 48"><metadata><?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmpMM:DocumentID="xmp.did:cb9f5498-bb58-4572-8043-8c369e6bfb9b" xmpMM:InstanceID="xmp.iid:cb9f5498-bb58-4572-8043-8c369e6bfb9b" dcterms:provenance="https://cai-manifests.adobe.com/manifests/urn-c2pa-ad34ce07-8d52-4fb1-930a-ca67614949ce-adobe"> </rdf:Description></rdf:RDF></x:xmpmeta>
+<?xpacket end="w"?></metadata>
+  <!-- Generator: Adobe Illustrator 30.8.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #ecd63f;
+        stroke-dasharray: 31.13 32.24;
+        stroke-miterlimit: 1.2;
+        stroke-width: 1.93px;
+      }
+
+      .st1 {
+        fill: #0a0909;
+      }
+
+      .st2 {
+        fill: url(#_名称未設定グラデーション_2);
+      }
+
+      .st3 {
+        fill: url(#_名称未設定グラデーション);
+      }
+    </style>
+    <linearGradient id="_名称未設定グラデーション" data-name="名称未設定グラデーション" x1="1438.51" y1="-1461.05" x2="1513.32" y2="-1386.23" gradientTransform="translate(-153.69 -147.75) scale(.12 -.12)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec6419"/>
+      <stop offset="1" stop-color="#b64d98"/>
+    </linearGradient>
+    <linearGradient id="_名称未設定グラデーション_2" data-name="名称未設定グラデーション 2" x1="1438.5" y1="-1464.04" x2="1513.32" y2="-1389.22" gradientTransform="translate(-153.69 -147.75) scale(.12 -.12)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec6419"/>
+      <stop offset="1" stop-color="#b64d98"/>
+    </linearGradient>
+  </defs>
+  <path class="st1" d="M40.35,41.57c-9.7,9.03-24.89,8.49-33.92-1.22S-2.05,15.46,7.65,6.43s24.89-8.49,33.92,1.22,8.49,24.89-1.22,33.92ZM35.38,13.41c-5.85-6.29-15.69-6.64-21.98-.79s-6.64,15.69-.79,21.98,15.69,6.64,21.98.79c6.29-5.85,6.64-15.69.79-21.98Z"/>
+  <circle class="st0" cx="24" cy="24" r="20.17"/>
+  <g>
+    <rect class="st3" x="22.54" y="16.1" width="2.93" height="15.08"/>
+    <rect class="st2" x="16.46" y="22.53" width="15.08" height="2.93"/>
+  </g>
+</svg>
