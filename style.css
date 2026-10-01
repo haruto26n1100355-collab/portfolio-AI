@@ -1500,7 +1500,7 @@ input, textarea{ cursor: text !important; }
 
 /* =====================================================
    スクロール進捗バー(LAP 1/4 〜 4/4)
-   消したいときは、このブロックと index1.html の .lap-bar、script.js の「スクロール進捗バー」を消してください
+   消したいときは、このブロックと index.html の .lap-bar、script.js の「スクロール進捗バー」を消してください
    ===================================================== */
 .lap-bar{
   position: fixed;
@@ -1615,7 +1615,7 @@ input, textarea{ cursor: text !important; }
 
 /* =====================================================
    読み込み中の「ピットイン中…」画面
-   消したいときは、このブロックと index1.html の .pit-loader、script.js の「読み込み中」を消してください
+   消したいときは、このブロックと index.html の .pit-loader、script.js の「読み込み中」を消してください
    ===================================================== */
 .pit-loader{
   position: fixed;
@@ -1755,3 +1755,36 @@ input, textarea{ cursor: text !important; }
   font: italic 900 .68rem/1 'Montserrat', sans-serif;
   letter-spacing: .08em;
 }
+
+/* =====================================================================
+   背景をやわらかく(「うるさい・眩しい」対策)
+   ・流れる大きな文字/図形を薄く、赤と金の光も弱める
+   ・文章が載る中央あたりを、うっすら暗くして読みやすくする
+   ・ヒーロー(一番上)の光・斜線・サーキットも、ひかえめに
+   ・濃さはここの数字だけで調整できます(0 に近いほど目立たない / 1 で元の濃さ)
+       --bg-letters : 流れる大きな文字と図形
+       --bg-glow    : 赤と金のぼんやりした光
+       --bg-hero    : ヒーローの背景(光・斜線・粒状感)
+       --bg-circuit : ヒーローのサーキット
+       --bg-scrim   : 文章まわりを暗くする濃さ(0〜1)
+   ===================================================================== */
+#view-portfolio{
+  --bg-letters: 0.42;
+  --bg-glow: 0.4;
+  --bg-hero: 0.55;
+  --bg-circuit: 0.55;
+  --bg-scrim: 0.35;
+}
+#view-portfolio .fl-big{ opacity: var(--bg-letters); }
+#view-portfolio .fl-glow{ opacity: var(--bg-glow); }
+#view-portfolio .flow-bg::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 70% 80% at 50% 45%, rgba(24,17,15,var(--bg-scrim)), rgba(24,17,15,0) 100%),
+    linear-gradient(to bottom, rgba(24,17,15,0.25), rgba(24,17,15,0.25));
+}
+#view-portfolio .hero::before{ opacity: var(--bg-hero); }
+#view-portfolio .hero-deco::before{ opacity: var(--bg-circuit); }
